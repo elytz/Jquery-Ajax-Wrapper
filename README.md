@@ -3,7 +3,7 @@ Its simple ajax wrapper for jQuery with UI blocker and option to Upload files vi
 
 ##Usage
 
-<pre>
+```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.blockUI/2.70/jquery.blockUI.min.js"></script>
 <script src="jquery.ajax.js"></script>
@@ -16,11 +16,11 @@ Its simple ajax wrapper for jQuery with UI blocker and option to Upload files vi
 	
 	RequestHandler(req,function(data){ alert(data) });
 	
-</pre>
+```
 
 ##Simple example
 
-<pre>
+```html
 <script>
 $(document).ready(function(){
 
@@ -46,4 +46,4 @@ function processSayHello(data){
 
 });
 </script>
-</pre>
+```
